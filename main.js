@@ -2,7 +2,7 @@ let client = AgoraRTC.createClient({mode:'rtc', codec:"vp8"})
 
 let config = {
     appid:'ca7d676d23d14d6b8565aeb1c3c95adc',
-    token:'007eJxTYHAR8GmcvaXKcdJNHUORqj3rM5ju1/+6vn81t103j8aytjIFhuRE8xQzc7MUI+MUQ5MUsyQLUzPTxNQkw2TjZEvTxJTk9da+yQ2BjAzn5xmyMDJAIIjPwuDiGOXHwAAAAMYePw==',
+    token:'007eJxTYLCO0Ag4Y/vF4eqjvUcXnk96xrVCPaRj+mLDtU2KuiE7anIUGJITzVPMzM1SjIxTDE1SzJIsTM1ME1OTDJONky1NE1OS46r8kusDGRl05B2YGBkgEMRnYXBxjPJjYAAAVJAeSA==',
     uid:null,
     channel:'DAZN',
 }
