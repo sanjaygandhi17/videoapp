@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Video Chat</title>
+    <link rel="icon" type="image/x-icon" href="/Users/sanjay.gandhi/Desktop/videoaudio/assets/favicon.ico">
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&family=Permanent+Marker&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <main>
+        <img class="image" src="data:image/png;base64,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" alt="DAZN IMAGE">
+        <div id="join-wrapper">
+            <div class="center">
+                <div class="login_title">
+                    <label><br>
+                        <h2> WELCOME</h2>
+                        <h4>Please enter your name</h4>
+                    </label>
+            <input id="username" type="text"  autocomplete="off" placeholder="name..." />
+            <button id="join-btn">Join Call</button>
+        </div>
+    </div>
+        </div>
+        <div id="user-streams" ></div>
+        
+        <div id="footer">
+            <div class="icon-wrapper">
+                <img class="control-icon" id="camera-btn" src="./assets/video.svg" />
+                <p>Cam</p>
+            </div>
+
+            <div class="icon-wrapper">
+                <img class="control-icon" id="mic-btn" src="./assets/microphone.svg" />
+                <p>Mic</p>
+            </div>
+
+            <div class="icon-wrapper">
+                <img class="control-icon" id="leave-btn" src="./assets/end-call-icon.svg" />
+                <p>Leave</p>
+            </div>
+            
+           
+            
+            
+        </div>
+
+    </main>
+
+    <script src="https://download.agora.io/sdk/release/AgoraRTC_N.js"></script>
+    <script src='main.js'></script>
+</body>
+</html>
